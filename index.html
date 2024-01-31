@@ -1,29 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+  </head>
   <body>
     <h2>AppDeGatos</h2>
     <main>
-      <h3>Imágenes de GATOS</h3>
+      <h3 style="color:blue">Imágenes de GATOS</h3>
 
       <!--TODO: Agregar enlace a imagen de Gato-->
       <p>Haz click aquí para ver más <a Href="#" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
         
       <p><a href="#" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gatito naranja recostado sobre su espalda"></a></p>
-      
+      <hr>
       <h3>Listas de gatos</h3>
-      <p>Cosas que le gustan a los gatos:</p>
-      <ul>
-        <li>Menta gatuna</li>
-        <li>Apuntadores láser</li>
-        <li>Familias</li>
-      </ul>
-      <img src="Imagenes/familia.jpg" alt="La imagen no se pudo mostrar">
-      <p>Cosas que los gatos odian:</p>
-      <ol>
-        <li>Tratamientos antipulgas</li>
-        <li>Truenos</li>
-        <li>Otros gatos</li>
-      </ol>
+      <div>
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        <ul>
+          <li>Menta gatuna</li>
+          <li>Apuntadores láser</li>
+          <li><s>Familias</s></li>
+        </ul>
+        <img src="Imagenes/familia.jpg" alt="La imagen no se pudo mostrar">
+        <hr>
+        <p>Cosas que los gatos <strong>odian</strong>:</p>
+        <ol>
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
+      <img src="Imagenes/cats.jpg" alt="s">
+
+      <form action="/enviar-respuesta">
+        
+        <!-- Botones de Radio -->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" 
+          name="interior-exterior" checked>Interior
+        </label>
+        <br>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior"
+           name="interior-exterior">Exterior
+        </label>
+        <br>
+
+        <!-- Casilla de Verificación -->
+        <label for="carinioso">
+          <input id="carinioso" type="checkbox" value="carinioso"
+           name="personalidad" checked>Cariñoso
+        </label>
+        <br>
+        <label for="peresozo">
+          <input id="peresozo" type="checkbox" value="peresozo"
+           name="personalidad">Peresozo
+        </label>
+        <br>
+        <label for="energetico">
+          <input id="energetico" type="checkbox" value="energetico"
+           name="personalidad" >Enérgetico
+        </label>
+        <br>
+
+        <!-- Texto y Botón Enviar -->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <button tupe="submit">Enviar</button>
+      </form>
+
     </main>
+    <footer>
+      <p>Sin derechos de autor.
+        <small>
+          <a href="https://www.freecodecamp.org/espanol/Anabalon_Maximiliano"
+            target="_blank"> freecodecamp/Anabalon_Maximiliano</a>
+        </small>
+      </p>
+    </footer>
   </body>
 </html>
