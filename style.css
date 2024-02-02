@@ -1,0 +1,40 @@
+.color-pagina {
+  background-color: rgb(51, 0, 255);
+}
+
+#div{
+  background-color: rgb(112, 225, 234);
+}
+
+#lista-gatos{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.imagen-de-gatos {
+  width: 150px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: rgb(21, 166, 41);
+  border-style: solid ;
+}
+
+.bordesredondeados{
+  border-radius: 50%;
+
+h2 {
+  font-family: "Workbench", sans-serif;
+  font-size: 40px;
+  color: rgb(3, 159, 3);
+}
+
+h3 {
+  font-family: "Satisfy", cursive ;
+  color: blue;
+  font-size: 25px;
+}
+
+a {
+  font-family: "Workbench", sans-serif ;
+}
