@@ -1,9 +1,37 @@
+img[alt]{
+  border-radius: 50%;
+}
+input[type="radio"] {
+  margin: 25px;
+}
+
+a[href="https://www.freecodecamp.org/espanol/Anabalon_Maximiliano"] {
+  color: deeppink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div {
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+}
+
+img{
+  padding: 25px;
+  margin: 25px;
+ 
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+}
+
 .color-pagina {
-  background-color: rgb(51, 0, 255);
+  background-color: rgb(88, 188, 25);
 }
 
 #div{
-  background-color: rgb(112, 225, 234);
+  background-color: rgb(4, 15, 16);
 }
 
 #lista-gatos{
@@ -21,7 +49,8 @@
 }
 
 .bordesredondeados{
-  border-radius: 50%;
+  border-radius: 70%;
+}
 
 h2 {
   font-family: "Workbench", sans-serif;
