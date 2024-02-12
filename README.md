@@ -1,1 +1,1 @@
-Proyecto-Practica del Curso de HTML y CSS
+Proyecto Web del Curso de HTML y CSS
